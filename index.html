@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Segmentation with TensorFlow.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/body-pix"></script>
+    <style>
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+  <h1>Body Segmentation with TensorFlow.js</h1>
+  <img id="sourceImage" crossorigin="anonymous" src="https://th.bing.com/th/id/OIP.4aSSqpjAXVveAkh09itlJAHaE8?rs=1&pid=ImgDetMain" alt="Source Image" />
+  <canvas id="outputCanvas"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
